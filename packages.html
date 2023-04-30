@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Travel Agency Homepage</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+
+		header {
+			background-color: deepskyblue;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+			font-size: 32px;
+		}
+
+		nav {
+			background-color: #f2f2f2;
+			padding: 10px;
+		}
+
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+		}
+
+		nav li {
+			margin: 0 10px;
+		}
+
+		nav a {
+			color: #333;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+		nav a:hover {
+			color: #666;
+		}
+
+		section {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			padding: 20px;
+		}
+
+		section div {
+			flex: 1;
+			margin: 10px;
+			padding: 20px;
+			background-color: #f2f2f2;
+			text-align: center;
+			box-shadow: 2px 2px 5px #ccc;
+			transition: all 0.3s ease-in-out;
+		}
+
+		section div:hover {
+			transform: scale(1.05);
+			box-shadow: 4px 4px 10px #ccc;
+		}
+
+		h2 {
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+
+		p {
+			margin: 0;
+			line-height: 1.5;
+		}
+        .container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+		.package {
+			display: inline-block;
+			margin: 10px;
+			width: 300px;
+			border: 1px solid #ccc;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+			border-radius: 5px;
+			overflow: hidden;
+		}
+		.package img {
+			width: 100%;
+			height: 200px;
+			object-fit: cover;
+		}
+		.package h2 {
+			margin: 10px;
+			font-size: 24px;
+		}
+		.package p {
+			margin: 10px;
+			font-size: 16px;
+			line-height: 1.5;
+		}
+		.package a {
+			display: block;
+			margin: 10px;
+			padding: 10px;
+			background-color: #333;
+			color: #fff;
+			text-align: center;
+			text-decoration: none;
+			border-radius: 5px;
+			transition: background-color 0.2s ease-in-out;
+		}
+		.package a:hover {
+			background-color: #555;
+		}
+		@media screen and (max-width: 767px) {
+			.package {
+				width: 100%;
+			}
+		}
+         #logo{
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            height: 80px;
+            width: 200px;
+        }
+        
+         #logo2{
+            position: absolute;
+            right: 110px;
+            top: 10px;
+            height: 80px;
+            width: 200px;
+        }
+
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+			font-size: 14px;
+		}
+         #daya{
+            position: absolute;
+            top: 50px;
+            
+        }
+	</style>
+</head>
+<body>
+	<header><marquee>
+        <img src="plane2-removebg-preview.png"></marquee>
+        <div id="daya"><h1>SKYLINE TRAVELS</h1></marquee>
+		  
+        </div>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="homepage.html">Home</a></li>
+			<li><a href="destinations.html">Destinations</a></li>
+			<li><a href="packages.html">Packages</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+	<section>
+		<div class="container">
+		<div class="package">
+			<img src="london%20uk.jpg" alt="London">
+			<h2>London, UK</h2>
+			<p>Explore the vibrant city of London with its world-famous landmarks and rich cultural heritage.</p>
+			<a href="#">Book Now</a>
+		</div>
+		<div class="package">
+			<img src="paris%20france.jpg" alt="Paris">
+			<h2>Paris, France</h2>
+			<p>Experience the romance of Paris with its iconic Eiffel Tower, charming cafes, and picturesque streets.</p>
+			<a href="#">Book Now</a>
+		</div>
+		<div class="package">
+			<img src="statue%20of%20lebre.jpg" alt="New York">
+			<h2>New York, USA</h2>
+			<p>Discover the city that never sleeps with its towering skyscrapers, bustling streets, and world-class attractions.</p>
+			<a href="#">Book Now</a>
+		</div>
+		<div class="package">
+			<img src="tokyo%20japan.jpg" alt="Tokyo"><h2>Tokyo, Japan</h2>
+			<p>Experience the unique blend of traditional culture and modern technology in the vibrant city of Tokyo.</p>
+			<a href="#">Book Now</a>
+		</div>
+		<div class="package">
+			<img src="rome.jpg" alt="Rome">
+			<h2>Rome, Italy</h2>
+			<p>Immerse yourself in the history and culture of Rome, the Eternal City, with its ancient ruins and stunning architecture.</p>
+			<a href="#">Book Now</a>
+		</div>
+		<div class="package">
+			<img src="sydney%20bridge.jpg" alt="Sydney">
+			<h2>Sydney, Australia</h2>
+			<p>Discover the beauty of Sydney with its iconic Opera House, beautiful beaches, and vibrant nightlife.</p>
+			<a href="#">Book Now</a>
+		</div>
+	</div>
+</body>
+</html>
