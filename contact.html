@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Travel Agency Homepage</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+
+		header {
+			background-color: deepskyblue;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+			font-size: 32px;
+		}
+
+		nav {
+			background-color: #f2f2f2;
+			padding: 10px;
+		}
+
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+		}
+
+		nav li {
+			margin: 0 10px;
+		}
+
+		nav a {
+			color: #333;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+		nav a:hover {
+			color: #666;
+		}
+
+		section {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			padding: 20px;
+		}
+
+		section div {
+			flex: 1;
+			margin: 10px;
+			padding: 20px;
+			background-color: #f2f2f2;
+			text-align: center;
+			box-shadow: 2px 2px 5px #ccc;
+			transition: all 0.3s ease-in-out;
+		}
+
+		section div:hover {
+			transform: scale(1.05);
+			box-shadow: 4px 4px 10px #ccc;
+		}
+
+		h2 {
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+
+		p {
+			margin: 0;
+			line-height: 1.5;
+}
+   
+
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+			font-size: 14px;
+		}
+        #daya{
+            position: absolute;
+            top: 50px;
+            
+        }
+	</style>
+</head>
+<body>
+	<header><marquee>
+        <img src="plane2-removebg-preview.png"></marquee>
+        <div id="daya"><h1>SKYLINE TRAVELS</h1></marquee>
+        </div>
+	</header>
+
+	<nav>
+      
+		<ul>
+			<li><a href="homepage.html">Home</a></li>
+			<li><a href="destinations.html">Destinations</a></li>
+			<li><a href="packages.html">Packages</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+
+	<section>
+		
+	<form action="#" method="post" style="max-width: 500px; margin: 0 auto; background-color: #fff; padding: 20px; border-radius: 5px; box-shadow: 0px 0px 10px #999;">
+		<label for="name" style="display: block; margin-bottom: 10px; color: #333; font-weight: bold;">Name:</label>
+		<input type="text" id="name" name="name" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; margin-bottom: 20px; box-sizing: border-box; font-size: 16px; font-family: Arial, sans-serif;">
+
+		<label for="email" style="display: block; margin-bottom: 10px; color: #333; font-weight: bold;">Email:</label>
+		<input type="email" id="email" name="email" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; margin-bottom: 20px; box-sizing: border-box; font-size: 16px; font-family: Arial, sans-serif;">
+
+		<label for="message" style="display: block; margin-bottom: 10px; color: #333; font-weight: bold;">Message:</label>
+		<textarea id="message" name="message" rows="5" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; margin-bottom: 20px; box-sizing: border-box; font-size: 16px; font-family: Arial, sans-serif;"></textarea>
+
+		<input type="submit" value="Submit" style="background-color: #4CAF50; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">
+	</form>
+	</section>
+
+	<footer>
+		<p>&copy; 2023 Travel Agency<br>. All rights reserved.</p>
+</footer>
+</body>
+</html>
+
